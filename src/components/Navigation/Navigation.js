@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavBar } from './Navigation.style';
-import { ReactComponent as LinkedIn } from '../../linkedin.svg';
-import { ReactComponent as GitHub } from '../../github.svg';
+import { ReactComponent as LinkedIn } from '../img/linkedin.svg';
+import { ReactComponent as GitHub } from '../img/github.svg';
 
 export default function NavigationBar() {
     return (
@@ -22,7 +22,7 @@ export default function NavigationBar() {
                         href="https://www.linkedin.com/in/lucasmatosdl/" 
                         className='icon-button'
                         target="_blank"
-                         rel="noopener noreferrer">
+                        rel="noopener noreferrer">
                         <LinkedIn />
                     </a>
                 </li>

@@ -10,9 +10,7 @@ function App() {
       <GlobalStyle />
         <NavigationBar />
           <Routes> 
-            <Route path="/" exact>
-
-            </Route>
+            <Route path="/" exact element={<Homepage />} />
           </Routes>
     </BrowserRouter>
   );

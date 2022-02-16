@@ -4,7 +4,7 @@ export const NavBar = styled.nav`
 position: fixed;
 top: 0;
 width: 100%;
-background-color: #dedede;
+background-color: #F0F0F0;
 padding: 10px;
 
 ul  {
@@ -13,6 +13,9 @@ ul  {
     margin: 0;
     list-style-type: none;
     justify-content: space-between;
+    @media (max-width: 350px) {
+        justify-content: center;
+    }
 
     p {
         padding-left: 15px;
@@ -20,7 +23,6 @@ ul  {
         font-size: 40px;
         font-weight: bold;
         @media (max-width: 485px) {
-            font-size: 25px;
             padding-left: 0px;
         }
     }
@@ -30,7 +32,6 @@ ul  {
         a {
             margin-left: 0px;
             margin-right: 15px;
-            text-decoration: none;
             @media (max-width: 350px) {
                 display:none;
             }
